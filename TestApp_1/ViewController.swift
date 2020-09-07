@@ -13,6 +13,7 @@ import Kingfisher
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     
+    
     var posts: [TAPost] = []
     var fetchingMore = false
     var currentPage = 1
